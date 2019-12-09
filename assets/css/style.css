@@ -1,0 +1,11 @@
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+body {
+    background-image: url("../images/crossline-dots/crossline-dots.png");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    margin: 0;
+}
