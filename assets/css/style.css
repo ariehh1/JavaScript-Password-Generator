@@ -9,3 +9,7 @@ body {
     background-attachment: fixed;
     margin: 0;
 }
+
+.form-control{
+    height: 250px;
+}
