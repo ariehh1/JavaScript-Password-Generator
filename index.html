@@ -9,37 +9,32 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
 </head>
 
 <body>
     <nav class="navbar navbar-light" style="background-color: lightgray;">
-        Ari's Password Generator
+        <a class="navbar-brand" href=#>Ari's Password Generator</a>
     </nav>
 
     <div class="container">
 
         <div class="row">
 
-            <div class="col-lg-8 col-sm-12">
+            <div class="col-lg-8 col-sm-12 mx-auto">
 
-                <div class="password-content">
+                <div class="content">
                     <h1>Generate A Password:</h1>
-                    
-                    <form>
-                            <div class="form-group">
-                                <label for="exampleInputPassword1"></label>
-                                <input type="password" class="form-control" id="exampleInputPassword1">
-                                <button onclick="">Generate Password</button>
-                                <button onclick="">Copy to Clipboard</button>
-                            </div>
-                        </form>
+                    <br />
+                    <input type="text" id="display">
+                    <br />
+                    <button id="generate">Generate Password</button>
+                    <button id="copytoclipboard">Copy to Clipboard</button>
                 </div>
+
             </div>
         </div>
     </div>
-
-
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
