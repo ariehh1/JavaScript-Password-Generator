@@ -1,5 +1,17 @@
 function generate(){
 
+    //create variable for user input
+    var userInput = prompt ('How many characters would you like your password to contain?');
+
+    //if less than 8 characters
+    if ("" <= '8');
+    alert ('Password must be at least 8 characters');
+
+    //if more than 128 characters
+    if ("" ==> '128');
+    alert ('Password must be less than 128 characters');
+
+    //question array
     var questions = [
         {q:'How many characters would you like your password to contain?', a: true},
         {q:'Do you want to include special characters?', a: true},
@@ -8,7 +20,7 @@ function generate(){
         {q:'Do you want to include uppercase characters?', a: true},
     ];
 
-    for var(i = 0; i < questions.length; i++);
+    for var (i = 0; i < questions.length; i++);
         var answer = confirm(questions[i].q);
     
     var allcharacters ="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~";
