@@ -18,3 +18,7 @@ References:
 
 1) https://www.w3schools.com/js/js_functions.asp and
 2) https://getbootstrap.com/docs/4.4/components/alerts/
+
+Screenshot:
+
+![image](https://user-images.githubusercontent.com/57271161/70758368-accf7b80-1cf7-11ea-94f1-14ab91eb2a56.png)
