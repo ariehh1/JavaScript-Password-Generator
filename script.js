@@ -9,8 +9,25 @@ var questions = [
     {q:''}
 ];
 
-for (var i = 0; i < questions.length; i++) {
-    console.log(questions[i]);
+//functions
+function generate(){
+
+    var allcharacters ="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~";
+
+    var password = "";   
+
+    function randomize() {
+        for (var i = 0; i < allcharacters; i++) {
+             var allcharacters = Math.floor(Math.random() * totalArray.length);
+    }
+    
+    function randomize() {
+        var passwordArray = [];
+        for (var i = 0; i < allcharacters; i++) {
+             var allcharacters = Math.floor(Math.random() * totalArray.length);
+             passwordArray.push(allcharacters);
+        }
+    }
 
 var generatePasswordbutton = document.getElementsByClassName("generate-password")[0];
 // generatePasswordbutton.addEventListener('click', function(event){
@@ -26,7 +43,7 @@ generatePasswordbutton.addEventListener('click', function(event) {
 var totalArray = []
     console.log(totalArray);
     
-var password = []    
+   
 
 //functions
 function generateUpper() {
