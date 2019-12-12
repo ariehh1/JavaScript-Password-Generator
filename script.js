@@ -4,17 +4,27 @@ var copyToClipBoardButton = document.getElementById("copytoclipboard");
 function generate() {
 
     //create variable for user input
-    var userInput = prompt('How many characters would you like your password to contain?');
+    //var userInput = prompt('How many characters would you like your password to contain?');
 
     //if less than 8 characters
-    if (userInput <= 8) {
-    alert('Password must be at least 8 characters');
-    }
+    //if (userInput <= 8) {
+    //alert('Password must be at least 8 characters');
+    //}
 
     //if more than 128 characters
-    if (userInput >= 128) {
-    alert('Password must be less than 128 characters');
+    //if (userInput >= 128) {
+    //alert('Password must be less than 128 characters');
+    //}
+
+    //prompt user for at least 8 characters
+    var userInput = prompt("How many characters would you like your password to contain?");
+
+    //loop userInput question
+    for (var i = userInput; userInput <=8 || userInput >=128; userInput = prompt('How many characters would you like your password to contain?')) {
+        alert('Password must be at least 8 characters but less than 128 characters');
     }
+
+
 
     //question array
     var questions = [
