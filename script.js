@@ -1,5 +1,11 @@
 function generate(){
 
+    var generatePasswordButton = document.getElementById("generate");
+    var copyToClipBoardButton = document.getElementByID("copytoclipboard");
+
+    generatePasswordButton.addEventListener('click', generate);
+    copyToClipBoardButton.addEventListener('click', copytoClipboard);
+
     //create variable for user input
     var userInput = prompt ('How many characters would you like your password to contain?');
 
