@@ -4,7 +4,7 @@ For my third repository on Github, I have created a Javascript Password Generato
 
 Length of password (must contain at least 8 characters but less than 128)
 
-Character Type:
+Character Type (user must select at least one):
 Special characters
 Numeric characters
 Lowercase characters
@@ -16,5 +16,5 @@ This repository cemented the concepts of Javascript and how logic plays a key ro
 
 References:
 
-1) https://www.w3schools.com/js/js_functions.asp
+1) https://www.w3schools.com/js/js_functions.asp and
 2) https://getbootstrap.com/docs/4.4/components/alerts/
