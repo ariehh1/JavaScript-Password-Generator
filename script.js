@@ -6,8 +6,11 @@ var numeric = ['0', '1', '2', '3' , '4', '5', '6', '7', '8', '9'];
 var questions = [
     {q:'How many characters would you like your password to contain?', a: true},
     {q:'Do you want to include special characters?', a: true}
-    
+    {q:''}
 ];
+
+for (var i = 0; i < questions.length; i++) {
+    console.log(questions[i]);
 
 var generatePasswordbutton = document.getElementsByClassName("generate-password")[0];
 // generatePasswordbutton.addEventListener('click', function(event){
@@ -32,11 +35,35 @@ alert (length)
 function generateLower() {
 
 }
+
 function generateSpecialCharacters() {
 
 }
+
 function generateNumeric() {
 
+}
+
+function copytoClipboard() {
+
+    document.getElementById("display").select();
+    
+    document.execCommand("Copy");
+
+    alert("Your password has been copied to the clipboard!")
+}
+
+function randomize() {
+    for (var i = 0; i < characters; i++) {
+         var chooseCharacters = Math.floor(Math.random() * totalArray.length);
+}
+
+function randomize() {
+    var passwordArray = [];
+    for (var i = 0; i < characters; i++) {
+         var chooseCharacters = Math.floor(Math.random() * totalArray.length);
+         passwordArray.push(chooseCharacters);
+    }
 }
 
 

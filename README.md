@@ -16,5 +16,5 @@ This repository cemented the concepts of Javascript and how logic plays a key ro
 
 References:
 
-https://www.w3schools.com/js/js_functions.asp
-https://getbootstrap.com/docs/4.4/components/alerts/
+1) https://www.w3schools.com/js/js_functions.asp
+2) https://getbootstrap.com/docs/4.4/components/alerts/
