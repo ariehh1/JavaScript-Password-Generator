@@ -24,15 +24,28 @@ function generate() {
         alert('Password must be at least 8 characters but less than 128 characters');
     }
 
+    //prompt user for special characters
+    var userInput = prompt("Click Ok to include special characters");
+        alert("Your password must contain at least one special, numeric, lowercase, or uppercase character");
+        
+    //prompt user for numeric characters
+    var userInput = prompt("Click Ok to include numeric characters");
+
+    //prompt user for lowercase characters
+    var userInput = prompt("Click Ok to include lowercase characters");
+
+    //prompt user for uppercase characters
+    var userInput = prompt("Click Ok to include uppercase characters");
+
 
 
     //question array
-    var questions = [
-        { q: 'Do you want to include special characters?', a: true },
-        { q: 'Do you want to include numeric characters?', a: true },
-        { q: 'Do you want to include lowercase characters?', a: true },
-        { q: 'Do you want to include uppercase characters?', a: true },
-    ];
+    //var questions = [
+        //{ q: 'Do you want to include special characters?', a: true },
+        //{ q: 'Do you want to include numeric characters?', a: true },
+        //{ q: 'Do you want to include lowercase characters?', a: true },
+        //{ q: 'Do you want to include uppercase characters?', a: true },
+    //];
 
     for (i = 0; i < questions.length; i++);
     var answer = confirm(questions[i].q);
