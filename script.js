@@ -47,14 +47,14 @@ function generate() {
         //{ q: 'Do you want to include uppercase characters?', a: true },
     //];
 
-    for (i = 0; i < questions.length; i++);
-    var answer = confirm(questions[i].q);
+    //for (i = 0; i < questions.length; i++);
+    //var answer = confirm(questions[i].q);
 
     var allcharacters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~";
 
     var password = "";
 
-    for (var i = 0; i <= allcharacters; i++) {
+    for (var i = 0; i < 8; i++) {
         password = password + allcharacters.charAt(Math.floor(Math.random() * Math.floor(allcharacters.length - 1)));
     }
 
