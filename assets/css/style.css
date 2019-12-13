@@ -3,6 +3,10 @@
     justify-content: center;
 }
 
+#display {
+    background-color: white;
+}
+
 .navbar-brand {
     font-size: 40px;
 }
