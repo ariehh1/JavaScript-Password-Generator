@@ -37,8 +37,6 @@ function generate() {
     //prompt user for uppercase characters
     var userInput = prompt("Click Ok to include uppercase characters");
 
-
-
     //question array
     //var questions = [
         //{ q: 'Do you want to include special characters?', a: true },
@@ -64,11 +62,12 @@ function generate() {
 
 function copytoClipboard() {
 
-    document.getElementById("exampleInputPassword1").select();
+    document.getElementById("display").select();
 
     document.execCommand("Copy");
 
-    alert("Your password has now been copied to the clipboard")
+    alert("Your password has now been copied to the clipboard");
+    
 }
 
 generatePasswordButton.addEventListener('click', generate);
