@@ -19,6 +19,9 @@ References:
 - [w3schools](https://www.w3schools.com/)
 - [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
 
+Contact:
+[@ariehh1](https://github.com/ariehh1)
+
 Screenshot:
 
 ![image](https://user-images.githubusercontent.com/57271161/70758368-accf7b80-1cf7-11ea-94f1-14ab91eb2a56.png)
